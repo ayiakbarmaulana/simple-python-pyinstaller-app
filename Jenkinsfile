@@ -1,6 +1,5 @@
 node {
   try {
-    checkout scm
 
     docker.image('python:2-alpine').inside {
       stage('Build') {
